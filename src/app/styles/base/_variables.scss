@@ -1,0 +1,37 @@
+/*===================================================================
+* INFORMATION
+* -------------------------------------------------------------------
+* @File Name:variables.scss
+* @Description : 모든 scss파일에서 사용할 변수에 대한 정의
+* @Create Date: 2023-01-17
+* @Last Update Date: N/A
+* @History: N/A
+* -------------------------------------------------------------------
+* ====================================================================*/
+
+$font: "Malgun Gothic", "맑은 고딕", "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, Geneva, sans-serif, Apple Gothic, AppleGothic;
+
+$text-color: #333;
+$placeholder: #757575;
+// dim
+$dim: #16161628;
+
+// BLACK
+$black: #1C1C1C;
+
+// GRAY
+$gray-01: #555;
+$gray-02: #999;
+$gray-03: #ddd;
+$gray-04: #e4e4e4;
+$gray-05: #f5f5f5;
+$gray-06: #F4F3F0;
+
+// Accent
+$accent: #FFE141;
+
+// Error
+$error: #df2b2b;
+
+$text-shadow-1: 0px 0px 30px rgba(0, 0, 0, 0.1);
+$text-shadow-2: 0px 0px 30px rgba(0, 0, 0, 0.5);

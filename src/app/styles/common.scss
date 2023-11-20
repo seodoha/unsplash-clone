@@ -1,0 +1,29 @@
+/*===================================================================
+* INFORMATION
+* -------------------------------------------------------------------
+* @File Name:common.scss
+* @Description : 여러 scss를 한군데 모으는 scss
+* -------------------------------------------------------------------
+* layouts         : 웹페이지 전체를 구성하는 레이아웃
+* pages           : 개별로 존재하는 화면
+* components      : 버튼, 인풋박스, 컨테이너 등등 개별 컴포넌트
+* variable.scss   : 모든 scss파일에서 사용할 변수에 대한 정의
+* responsive.scss : 반응형 스타일
+* ====================================================================*/
+
+@charset "UTF-8";
+
+// BASE
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/base";
+
+// LAYOUT
+@import "./layouts/layout";
+@import "./layouts/header";
+
+// COMPONENTS
+@import "./components/button";
+
+// RESPONSIVE
+@import "./responsive";
