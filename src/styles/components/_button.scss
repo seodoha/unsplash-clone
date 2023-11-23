@@ -7,10 +7,16 @@
   border-radius: 0.8rem;
   transition: all 0.1s;
   font-weight: bold;
+  transition: all 0.3s;
 
   &.ty01 {
     background-color: #ddd;
+    border: 1px solid #ddd;
     color: #666;
+    &:hover {
+      background-color: #fff;
+      border-color: #666;
+    }
   }
 
   &.ty02 {
